@@ -21,8 +21,8 @@ class MyQR:
 def main():
     myqr = MyQR (size=30, padding=2)
     myqr.create_qr('sample.png',
-                   fg='black',
-                   bg='white')
+                   fg='blue',
+                   bg='red')
     
 if __name__ == '__main__':
     main()
